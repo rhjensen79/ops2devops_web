@@ -2,3 +2,14 @@ gitbaseURL = 'http://ops2devops.tanzu.dk'
 languageCode = 'en-us'
 title = 'Ops2Devops'
 theme = "hyde"
+
+[Menus]
+  main = [
+      {Name = "Github", URL = "https://github.com/username/"},
+      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/username/"}
+  ]
+
+  [params]
+    description = "Your custom description"
+    themeColor = "theme-base-0d"
+    layoutReverse = true
