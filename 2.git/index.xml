@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2. Git on Ops2Devops Workshop documentation</title><link>/2.git/</link><description>Recent content in 2. Git on Ops2Devops Workshop documentation</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 06 Apr 2022 20:33:12 +0200</lastBuildDate><atom:link href="/2.git/index.xml" rel="self" type="application/rss+xml"/><item><title>1 Configure Git</title><link>/2.git/1/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>/2.git/1/</guid><description>To use git, you must first setup the username and email, og the person making the changes.
+To configure git with your user, type the following commands with your own name and email.
+git config --global user.name &amp;quot;John Doe&amp;quot;
+git config --global user.email johndoe@example.com</description></item><item><title>2 Create first Git Repository</title><link>/2.git/2/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>/2.git/2/</guid><description>Using the terminal run the following commands, to create and initialize your first git repository
+Create Folder
+mkdir myfirstrepo
+Open folder
+cd myfirstrepo
+Initialize git
+git init
+Check a new .git folder has been created with content
+ls .git
+You should see a lot of files and folders. These are the files used by Git, to track all changes you make in you new Git repository.</description></item><item><title>3 Create first Git Changes (CLI)</title><link>/2.git/3/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>/2.git/3/</guid><description>Using the terminal, we will now create the first changes to the Git repository.
+Create a file with text
+echo &amp;quot;initial content&amp;quot; &amp;gt; file1.txt
+Stage changes
+git add .
+commit changes
+git commit -m &amp;quot;My first change&amp;quot;
+make a new change to the file
+echo &amp;quot;new content&amp;quot; &amp;gt; file1.txt
+Stage the new changes
+git add .
+commit new changes</description></item><item><title>4 Create first Git Changes (GUI)</title><link>/2.git/4/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>/2.git/4/</guid><description>Usiong the GUI (VScode) we will now do the same as before.
+Open the folder in vscode.
+If presented witha security warning, then click yes, to trusting the folder.
+Open file1.txt and add or change the content
+Save the file
+See the number on the icon to the left.
+Select the Soruce control icon
+Select the file</description></item></channel></rss>

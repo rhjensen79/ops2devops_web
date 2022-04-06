@@ -1,1 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ops2Devops Workshop documentation</title><link>/</link><description>Recent content on Ops2Devops Workshop documentation</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 06 Apr 2022 20:33:12 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>1 Task</title><link>/1.git/1/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>/1.git/1/</guid><description>Lorem Ipsum. Notice draft is set to true.</description></item><item><title>1 Task</title><link>/2.docker/1/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>/2.docker/1/</guid><description>Lorem Ipsum. Notice draft is set to true.</description></item><item><title>1 Task</title><link>/3.k8s/1/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>/3.k8s/1/</guid><description>Lorem Ipsum. Notice draft is set to true.</description></item><item><title>1 Task</title><link>/4.cicd/1/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>/4.cicd/1/</guid><description>Lorem Ipsum. Notice draft is set to true.</description></item><item><title>2 Task</title><link>/1.git/2/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>/1.git/2/</guid><description>Lorem Ipsum. Notice draft is set to true.</description></item><item><title/><link>/_footer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/_footer/</guid><description>For info see tanzu.vmware.com</description></item><item><title/><link>/_header/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/_header/</guid><description>Tanzu.dk Ops2DevOps Workshop</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ops2Devops Workshop documentation</title><link>/</link><description>Recent content on Ops2Devops Workshop documentation</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 06 Apr 2022 20:33:12 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>1 Configure Git</title><link>/2.git/1/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>/2.git/1/</guid><description>To use git, you must first setup the username and email, og the person making the changes.
+To configure git with your user, type the following commands with your own name and email.
+git config --global user.name &amp;quot;John Doe&amp;quot;
+git config --global user.email johndoe@example.com</description></item><item><title>1 Ipadresses</title><link>/1.connect/1/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>/1.connect/1/</guid><description>All Student ipadresses are shared from a Notion page, found here. Dont copy them, until the teacher has updated with the ipadessed, relevant for the current class. You will be given a student number. Each student has a public ipadress. Write it down, since you will you it many times today.
+Also write down the public ipadress of the Kubernetes Cluster (Also found on the page)</description></item><item><title>1 Task</title><link>/3.docker/1/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>/3.docker/1/</guid><description>Lorem Ipsum. Notice draft is set to true.</description></item><item><title>1 Task</title><link>/4.k8s/1/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>/4.k8s/1/</guid><description>Lorem Ipsum. Notice draft is set to true.</description></item><item><title>1 Task</title><link>/5.cicd/1/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>/5.cicd/1/</guid><description>Lorem Ipsum. Notice draft is set to true.</description></item><item><title>2 Create first Git Repository</title><link>/2.git/2/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>/2.git/2/</guid><description>Using the terminal run the following commands, to create and initialize your first git repository
+Create Folder
+mkdir myfirstrepo
+Open folder
+cd myfirstrepo
+Initialize git
+git init
+Check a new .git folder has been created with content
+ls .git
+You should see a lot of files and folders. These are the files used by Git, to track all changes you make in you new Git repository.</description></item><item><title>3 Create first Git Changes (CLI)</title><link>/2.git/3/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>/2.git/3/</guid><description>Using the terminal, we will now create the first changes to the Git repository.
+Create a file with text
+echo &amp;quot;initial content&amp;quot; &amp;gt; file1.txt
+Stage changes
+git add .
+commit changes
+git commit -m &amp;quot;My first change&amp;quot;
+make a new change to the file
+echo &amp;quot;new content&amp;quot; &amp;gt; file1.txt
+Stage the new changes
+git add .
+commit new changes</description></item><item><title>4 Create first Git Changes (GUI)</title><link>/2.git/4/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>/2.git/4/</guid><description>Usiong the GUI (VScode) we will now do the same as before.
+Open the folder in vscode.
+If presented witha security warning, then click yes, to trusting the folder.
+Open file1.txt and add or change the content
+Save the file
+See the number on the icon to the left.
+Select the Soruce control icon
+Select the file</description></item><item><title/><link>/_footer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/_footer/</guid><description>For info see tanzu.vmware.com</description></item><item><title/><link>/_header/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/_header/</guid><description>Tanzu.dk Ops2DevOps Workshop</description></item></channel></rss>
