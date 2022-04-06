@@ -1,15 +1,17 @@
 gitbaseURL = 'http://ops2devops.tanzu.dk'
 languageCode = 'en-us'
-title = 'Ops2Devops'
+title = 'Tanzu.dk'
 theme = "hyde"
 
 [Menus]
   main = [
-      {Name = "Github", URL = "https://github.com/username/"},
-      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/username/"}
+      {Name = "Main Github Repo", URL = "https://github.com/TanzuDK/ops2devops"},
   ]
 
   [params]
-    description = "Your custom description"
+    description = "Ops2DevOps training"
     themeColor = "theme-base-0d"
-    layoutReverse = true
+
+[author]
+    name = "Robert Jensen"
+    homepage = "https://www-.robert-jensen.dk"
