@@ -1,5 +1,5 @@
 # Ops 2 DevOps 
-![devops](Devops.png)
+![devops](frontpage_logo.jpg)
 
 
 ### Welcome
