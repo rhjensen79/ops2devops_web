@@ -29,9 +29,11 @@ If asked, select your Github user
 Check that you are in your forked repository.
 The name should be githubusername/ops2devops
 Click the green Code button</description></item><item><title>06 Clone Repository</title><link>https://ops2devops.tanzu.dk/2.git/6/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>https://ops2devops.tanzu.dk/2.git/6/</guid><description>In this task, clone the newly forked repository, so you can work on it localy on your VM.
-Make sure you are not in the existing folder, vi created earlier, but insted in in the root home folder /home/ubuntu
-Run cd /home/ubuntuif you are in doubt in the VScode terminal window.
-Run git clone CopyedURL
-Open the new folder in VSCode - Top Menu -&amp;gt; File -&amp;gt;Open folder</description></item><item><title>07 Enable actions on forked repository</title><link>https://ops2devops.tanzu.dk/2.git/7/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>https://ops2devops.tanzu.dk/2.git/7/</guid><description> To prepare for a later step, open the Action tab, in your new forked repository page on Github.
+Make sure you closed the foldes, as asked in the last part of step 4.
+Click Files icon, and select the Clone Repository button
+Paste the url from before (Note it ends with .git)
+Press enter
+Folder path should be /home/Ubuntu/
+Select ok.</description></item><item><title>07 Enable actions on forked repository</title><link>https://ops2devops.tanzu.dk/2.git/7/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>https://ops2devops.tanzu.dk/2.git/7/</guid><description> To prepare for a later step, open the Action tab, in your new forked repository page on Github.
 Click The green button, to confirm you accept and want to enable actions. Click 4-k8s-1 and select run workflow, on the right.
 Click the green Run Workflow button.</description></item></channel></rss>
