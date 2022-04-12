@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2. Git on Ops2Devops Workshop documentation</title><link>https://ops2devops.tanzu.dk/2.git/</link><description>Recent content in 2. Git on Ops2Devops Workshop documentation</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 06 Apr 2022 20:33:12 +0200</lastBuildDate><atom:link href="https://ops2devops.tanzu.dk/2.git/index.xml" rel="self" type="application/rss+xml"/><item><title>01 Configure Git</title><link>https://ops2devops.tanzu.dk/2.git/1/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>https://ops2devops.tanzu.dk/2.git/1/</guid><description>To use git, you must first setup the username and email, of the person making the changes.
-To configure git with your user, type the following commands. Replace &amp;ldquo;John D&amp;rdquo; with your own name and email.
+To configure git with your user, type the following commands in the terminal. Replace &amp;ldquo;John D&amp;rdquo; with your own name and email.
 git config --global user.name &amp;quot;John Doe&amp;quot;
 git config --global user.email johndoe@example.com</description></item><item><title>02 Create first Git Repository</title><link>https://ops2devops.tanzu.dk/2.git/2/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>https://ops2devops.tanzu.dk/2.git/2/</guid><description>Using the terminal run the following commands, to create a folder and initialize it as a git repository
 Create Folder
@@ -18,8 +18,7 @@ git add .
 commit changes
 git commit -m &amp;quot;My first change&amp;quot;
 make a new change to the file</description></item><item><title>04 Create first Git Changes (GUI)</title><link>https://ops2devops.tanzu.dk/2.git/4/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>https://ops2devops.tanzu.dk/2.git/4/</guid><description>Using the GUI (VScode) we will now do the same as before.
-Open the folder in vscode.
-If presented with a security warning, then click yes, to trusting the folder.
+Open the folder you just created myfirst repo in vscode Submeny -&amp;gt; File -&amp;gt; Open Folder -&amp;gt; /home/ubuntu/myfirstrepo/ -&amp;gt; ok
 Open file1.txt and add or change the content
-Save the file
+Save the file (ctrl + s)
 Notice a number on the icon to the left apears. This shows, the number of changes, that has been made, that is not comitted.</description></item></channel></rss>
