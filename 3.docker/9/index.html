@@ -1,4 +1,4 @@
-<!doctype html><html><head><title>Ops2Devops Workshop documentation</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name=revised content="2022-04-19T10:31:35 UTC"><title>09 Trubleshoot running container :: Ops2Devops Workshop documentation</title><link rel="shortcut icon" href=/images/favicon.png type=image/x-icon><link href=/css/nucleus.css rel=stylesheet><link href=/css/font-awesome.min.css rel=stylesheet><link href=/css/featherlight.min.css rel=stylesheet><link href=/css/auto-complete.css rel=stylesheet><link href=/theme-flex/style.css rel=stylesheet><link rel=stylesheet href=/css/bootstrap.min.css><meta name=description content></head><body data-url=/3.docker/9/><header><div class=logo><p>Tanzu.dk Ops2DevOps Workshop</p></div><div class=burger><a href=javascript:void(0); style=font-size:15px>&#9776;</a></div><nav class=shortcuts><li role><a href=https://github.com/TanzuDK/ops2devops rel=noopener><i class="fa fa-github"></i> <label>TanzuDK/ops2devops</label></a></li><li role><a href=https://github.com/rhjensen79 rel=noopener><i class="fa fa-bullhorn"></i> <label>Credits</label></a></li></nav></header><article><aside><ul class=menu><li data-nav-id=/ class=dd-item><a href=/><i class="fa fa-fw fa-home"></i></a></li><li data-nav-id=https://ops2devops.tanzu.dk/1.connect/ class="dd-item haschildren"><div><a href=/1.connect/>1. Connect</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i></div><ul><li data-nav-id=https://ops2devops.tanzu.dk/1.connect/1/ class=dd-item><div><a href=/1.connect/1/>01 Ipadresses
+<!doctype html><html><head><title>Ops2Devops Workshop documentation</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name=revised content="2022-04-19T10:40:16 UTC"><title>09 Trubleshoot running container :: Ops2Devops Workshop documentation</title><link rel="shortcut icon" href=/images/favicon.png type=image/x-icon><link href=/css/nucleus.css rel=stylesheet><link href=/css/font-awesome.min.css rel=stylesheet><link href=/css/featherlight.min.css rel=stylesheet><link href=/css/auto-complete.css rel=stylesheet><link href=/theme-flex/style.css rel=stylesheet><link rel=stylesheet href=/css/bootstrap.min.css><meta name=description content></head><body data-url=/3.docker/9/><header><div class=logo><p>Tanzu.dk Ops2DevOps Workshop</p></div><div class=burger><a href=javascript:void(0); style=font-size:15px>&#9776;</a></div><nav class=shortcuts><li role><a href=https://github.com/TanzuDK/ops2devops rel=noopener><i class="fa fa-github"></i> <label>TanzuDK/ops2devops</label></a></li><li role><a href=https://github.com/rhjensen79 rel=noopener><i class="fa fa-bullhorn"></i> <label>Credits</label></a></li></nav></header><article><aside><ul class=menu><li data-nav-id=/ class=dd-item><a href=/><i class="fa fa-fw fa-home"></i></a></li><li data-nav-id=https://ops2devops.tanzu.dk/1.connect/ class="dd-item haschildren"><div><a href=/1.connect/>1. Connect</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i></div><ul><li data-nav-id=https://ops2devops.tanzu.dk/1.connect/1/ class=dd-item><div><a href=/1.connect/1/>01 Ipadresses
 </a><i class="fa fa-circle-thin read-icon"></i></div></li><li data-nav-id=https://ops2devops.tanzu.dk/1.connect/2/ class=dd-item><div><a href=/1.connect/2/>02 Connect to environment
 </a><i class="fa fa-circle-thin read-icon"></i></div></li><li data-nav-id=https://ops2devops.tanzu.dk/1.connect/3/ class=dd-item><div><a href=/1.connect/3/>03 Understand VScode
 </a><i class="fa fa-circle-thin read-icon"></i></div></li></ul></li><li data-nav-id=https://ops2devops.tanzu.dk/2.git/ class="dd-item haschildren"><div><a href=/2.git/>2. Git</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i></div><ul><li data-nav-id=https://ops2devops.tanzu.dk/2.git/1/ class=dd-item><div><a href=/2.git/1/>01 Configure Git
@@ -54,13 +54,8 @@
 </code></pre><ul><li>See the promt changes to <code>root@id</code></li><li>To list the html directory, from inside the container run</li></ul><pre tabindex=0><code>ls /usr/share/nginx/html
 </code></pre><ul><li>To exit out of the container run</li></ul><pre tabindex=0><code>exit
 </code></pre><ul><li>To see the conainer is still running run</li></ul><pre tabindex=0><code>docker ps
-``
-
-## Logs
-Getting logs from a running container, is also a usefull way of trubleshooting, without loogin into it. 
-
-- To get the logs from the container `nginx` run
-</code></pre><p>docker logs nginx</p><pre tabindex=0><code></code></pre><p>ubuntu@student-0:~/ops2devops/3.Docker$ docker logs nginx
+</code></pre><h2 id=logs>Logs</h2><p>Getting logs from a running container, is also a usefull way of trubleshooting, without loogin into it.</p><ul><li>To get the logs from the container <code>nginx</code> run</li></ul><pre tabindex=0><code>docker logs nginx
+</code></pre><pre tabindex=0><code>ubuntu@student-0:~/ops2devops/3.Docker$ docker logs nginx
 /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
 /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
 /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
@@ -69,16 +64,17 @@ Getting logs from a running container, is also a usefull way of trubleshooting, 
 /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
 /docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh
 /docker-entrypoint.sh: Configuration complete; ready for start up
-2022/04/19 07:27:02 [notice] 1#1: using the &ldquo;epoll&rdquo; event method
+2022/04/19 07:27:02 [notice] 1#1: using the &#34;epoll&#34; event method
 2022/04/19 07:27:02 [notice] 1#1: nginx/1.21.6
-2022/04/19 07:27:02 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6)
+2022/04/19 07:27:02 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
 2022/04/19 07:27:02 [notice] 1#1: OS: Linux 5.13.0-1021-aws
 2022/04/19 07:27:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
 2022/04/19 07:27:02 [notice] 1#1: start worker processes
 2022/04/19 07:27:02 [notice] 1#1: start worker process 32
 2022/04/19 07:27:02 [notice] 1#1: start worker process 33
-188.179.193.131 - - [19/Apr/2022:07:27:10 +0000] &ldquo;GET / HTTP/1.1&rdquo; 304 0 &ldquo;-&rdquo; &ldquo;Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:99.0) Gecko/20100101 Firefox/99.0&rdquo; &ldquo;-&rdquo;
-188.179.193.131 - - [19/Apr/2022:07:27:10 +0000] &ldquo;GET /Devops-toolchain.svg.png HTTP/1.1&rdquo; 304 0 &ldquo;http://35.159.25.103/&rdquo; &ldquo;Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:99.0) Gecko/20100101 Firefox/99.0&rdquo; &ldquo;-&rdquo;</p><pre tabindex=0><code></code></pre><div class=chevrons><div id=navigation><a class="nav nav-prev" href=/3.docker/8/ title="08 Run as deamon"><i class="fa fa-chevron-left"></i><label>08 Run as deamon</label></a>
+188.179.193.131 - - [19/Apr/2022:07:27:10 +0000] &#34;GET / HTTP/1.1&#34; 304 0 &#34;-&#34; &#34;Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:99.0) Gecko/20100101 Firefox/99.0&#34; &#34;-&#34;
+188.179.193.131 - - [19/Apr/2022:07:27:10 +0000] &#34;GET /Devops-toolchain.svg.png HTTP/1.1&#34; 304 0 &#34;http://35.159.25.103/&#34; &#34;Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:99.0) Gecko/20100101 Firefox/99.0&#34; &#34;-&#34;
+</code></pre><div class=chevrons><div id=navigation><a class="nav nav-prev" href=/3.docker/8/ title="08 Run as deamon"><i class="fa fa-chevron-left"></i><label>08 Run as deamon</label></a>
 <a class="nav nav-next" href=/3.docker/10/ title="10 Cleanup" style=margin-right:0><label>10 Cleanup</label><i class="fa fa-chevron-right"></i></a></div></div></section></article><footer><div class=footline><div class=date><i class="fa fa-calendar"></i> Last update on 06/04/2022</div><div class=github-link><a href=https://github.com/vjeantet/hugo-theme-docdock/edit/master/exampleSite/content/3.Docker/9.md target=blank><i class="fa fa-code-fork"></i>
 Improve this page</a></div></div><div><p>For info see <a href=https://tanzu.vmware.com>tanzu.vmware.com</a></p></div></footer><script src=/js/jquery-2.x.min.js></script>
 <script type=text/javascript>var baseurl="https://ops2devops.tanzu.dk"</script><script src=/js/clipboard.min.js></script>
