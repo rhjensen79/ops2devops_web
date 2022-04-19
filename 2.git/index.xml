@@ -32,4 +32,7 @@ Click Files icon, and select the Clone Repository button
 Paste the url from before (Note it ends with .git)
 Press enter
 Folder path should be /home/Ubuntu/
-Select ok.</description></item></channel></rss>
+Select ok.</description></item><item><title>07 Authetificate VScode to Github</title><link>https://ops2devops.tanzu.dk/2.git/7/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>https://ops2devops.tanzu.dk/2.git/7/</guid><description>To autentificate VScode with Github, you need to login, when you do your first push.
+Start by adding or changing a file in your repo (example: create a file called test.txt in the root)
+Commit the change, using VScode.
+Click Sync Changes If you get a warning, then select OK, Don't show again You will not be prompted, to sign into Github.</description></item></channel></rss>
