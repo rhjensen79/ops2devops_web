@@ -33,13 +33,7 @@ git commit -m &amp;quot;My first change&amp;quot;
 make a new change to the file</description></item><item><title>03 See running action</title><link>https://ops2devops.tanzu.dk/5.cicd/3/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>https://ops2devops.tanzu.dk/5.cicd/3/</guid><description> Open github.com and find your repository, and select Actions Under Workflows your should now see your workflows. ops2devops. Click on the top Workflow Run. The name is the same as your last commit message. You should now see your stages. You only have one called Build so click on that. You can now see all the stages, that we setup in the file.</description></item><item><title>03 Test connection</title><link>https://ops2devops.tanzu.dk/4.k8s/3/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>https://ops2devops.tanzu.dk/4.k8s/3/</guid><description>To verify the connection to the Kubernetes cluster is working, perform the following steps.
 Run kubectl get nodes to see you can connect and that the Kubernetes nodes are active The result should be something like this : NAME STATUS ROLES AGE VERSION k8s Ready &amp;lt;none&amp;gt; 6d1h v1.23.4-2+98fc2022f3ad3e This shows the different nodes of the Kubernetes Cluster, State, Role, Age and version. In this workshop, we are working with a single node Kubernetes cluster, but in the real world, there would probably be 3 masters, and a large number of workers.</description></item><item><title>03 Understand VScode</title><link>https://ops2devops.tanzu.dk/1.connect/3/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>https://ops2devops.tanzu.dk/1.connect/3/</guid><description>This course will be using VScode for everyting. We will run thru the basics, so you know the tool, you will be working with.
 In the top left corner, you will see the main controls of VScode.
-Submenu
-Files
-Search
-Git
-Debug
-Extentions
-In this workshop, we will be using Submenu, Files, Git and extentions.</description></item><item><title>04 Create first Git Changes (GUI)</title><link>https://ops2devops.tanzu.dk/2.git/4/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>https://ops2devops.tanzu.dk/2.git/4/</guid><description>Using the GUI (VScode) we will now do the same as before.
+Submenu Files Search Git Debug Extentions In this workshop, we will be using Submenu, Files, Git and extentions.</description></item><item><title>04 Create first Git Changes (GUI)</title><link>https://ops2devops.tanzu.dk/2.git/4/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>https://ops2devops.tanzu.dk/2.git/4/</guid><description>Using the GUI (VScode) we will now do the same as before.
 Open the folder you just created myfirst repo in vscode Submeny -&amp;gt; File -&amp;gt; Open Folder -&amp;gt; /home/ubuntu/myfirstrepo/ -&amp;gt; ok
 Open file1.txt and add or change the content
 Save the file (ctrl + s)
