@@ -7,6 +7,9 @@ draft= false
 
 ## Usefull links
 
+## Training
+- [Kube Academy](https://kube.academy)
+
 ### CI/CD
 - [Gitlab](https://gitlab.com)
 - [Github](www.github.com)
