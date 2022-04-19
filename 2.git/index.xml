@@ -32,6 +32,4 @@ Click Files icon, and select the Clone Repository button
 Paste the url from before (Note it ends with .git)
 Press enter
 Folder path should be /home/Ubuntu/
-Select ok.</description></item><item><title>07 Enable actions on forked repository</title><link>https://ops2devops.tanzu.dk/2.git/7/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>https://ops2devops.tanzu.dk/2.git/7/</guid><description> To prepare for a later step, open the Action tab, in your new forked repository page on Github.
-Click The green button, to confirm you accept and want to enable actions. Click 4-k8s-1 and select run workflow, on the right.
-Click the green Run Workflow button.</description></item></channel></rss>
+Select ok.</description></item></channel></rss>
