@@ -5,7 +5,7 @@ description = ""
 draft= false
 +++
 
-### The purpose of this task, is to setup a working conection, to the demo enviroment.
+The purpose of this task, is to setup a working conection, to the demo enviroment.
 
 The enviroment consist of multiple ec2 instances, deployed in AWS. 
 We connect and use the enviorement, using a versions of [Visual Studio Code](https://code.visualstudio.com)(vscode) called [Code-Server](https://github.com/coder/code-server), which enables us to use vscode, using a webbrowser.
