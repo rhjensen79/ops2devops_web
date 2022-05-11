@@ -14,11 +14,10 @@ Check that you are in your forked repository.
 The name should be githubusername/ops2devops
 Click the green Code button</description></item><item><title>06 Clone Repository</title><link>https://ops2devops.tanzu.dk/2.git/6/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>https://ops2devops.tanzu.dk/2.git/6/</guid><description>In this task, clone the newly forked repository, so you can work on it localy on your VM.
 Make sure you closed the foldes, as asked in the last part of step 4.
-Click Files icon, and select the Clone Repository button
+Click Source Control icon, and select the Clone Repository button
 Paste the url from before (Note it ends with .git)
 Press enter
-Folder path should be /home/Ubuntu/
-Select ok.</description></item><item><title>07 Authenticate VScode to Github</title><link>https://ops2devops.tanzu.dk/2.git/7/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>https://ops2devops.tanzu.dk/2.git/7/</guid><description>To authenticate VScode with Github, you need to login, when you do your first push.
+Folder path should be /home/Ubuntu/</description></item><item><title>07 Authenticate VScode to Github</title><link>https://ops2devops.tanzu.dk/2.git/7/</link><pubDate>Wed, 06 Apr 2022 20:33:12 +0200</pubDate><guid>https://ops2devops.tanzu.dk/2.git/7/</guid><description>To authenticate VScode with Github, you need to login, when you do your first push.
 Start by adding or changing a file in your repo (example: create a file called test.txt in the root)
 Commit the change, using VScode.
 Click Sync Changes If you get a warning, then select OK, Don't show again You will not be prompted, to sign into Github.</description></item></channel></rss>
