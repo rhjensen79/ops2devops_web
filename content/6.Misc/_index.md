@@ -7,8 +7,14 @@ draft= false
 
 ## Usefull links
 
-## Training
+Here you can find links to trainings, books, solutions, events etc. That might help you on your further jurney in DevOps.
+
+### Training
 - [Kube Academy](https://kube.academy)
+
+### Books
+- [The Unicorn project](https://www.amazon.com/Unicorn-Project-Developers-Disruption-Thriving-ebook/dp/B07QT9QR41)
+- [The Phoenix Project](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business-ebook/dp/B078Y98RG8/ref=sr_1_1?crid=3KJRI9GKDUE2F&keywords=the+phoenix+project&qid=1652331145&s=digital-text&sprefix=the+pho%2Cdigital-text%2C192&sr=1-1)
 
 ### CI/CD
 - [Gitlab](https://gitlab.com)
@@ -21,6 +27,7 @@ draft= false
 
 
 ### Kubernetes
+- [Tanzu Community Edition](https://tanzucommunityedition.io)
 - [VMware Tanzu TKG](https://tanzu.vmware.com/kubernetes-grid/)
 - [Amazon EKS](https://aws.amazon.com/eks/)
 - [Azure AKS](https://azure.microsoft.com/en-us/services/kubernetes-service/#overview)
@@ -39,3 +46,7 @@ draft= false
 - [Harbor](https://goharbor.io)
 - [Docker Hub](https://hub.docker.com)
 - [Artifactory](https://jfrog.com/artifactory/)
+
+### Conferences
+- [Devopsdays](https://devopsdays.org)
+- [CNCF Events](https://www.cncf.io/kubecon-cloudnativecon-events/)
