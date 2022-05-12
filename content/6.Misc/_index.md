@@ -42,7 +42,7 @@ Here you can find links to trainings, books, solutions, events etc. That might h
 ### Containers
 - [BuildPacks](https://buildpacks.io)
 
-### Registrys
+### Container Registries
 - [Harbor](https://goharbor.io)
 - [Docker Hub](https://hub.docker.com)
 - [Artifactory](https://jfrog.com/artifactory/)
