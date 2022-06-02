@@ -50,3 +50,5 @@ Here you can find links to trainings, books, solutions, events etc. That might h
 ### Conferences
 - [Devopsdays](https://devopsdays.org)
 - [CNCF Events](https://www.cncf.io/kubecon-cloudnativecon-events/)
+
+Feel free to suggest more.
